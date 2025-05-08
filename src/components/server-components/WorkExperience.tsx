@@ -2,7 +2,7 @@ export function WorkExperience() {
   return (
     <section
       id="work"
-      className="bg-gray-900 text-white rounded-lg shadow-xl p-8 mb-10 transform transition-all duration-500 hover:scale-102 hover:shadow-2xl"
+      className="bg-gray-900 text-white rounded-lg shadow-xl md:p-8 py-5 mb-10 transform transition-all duration-500 hover:scale-102 hover:shadow-2xl"
     >
       <div className="max-w-4xl mx-auto px-6">
         <h2 className="text-4xl font-bold mb-8">Опыт работы</h2>

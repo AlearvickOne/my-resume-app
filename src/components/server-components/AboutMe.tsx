@@ -40,13 +40,13 @@ export function AboutMe() {
   return (
     <section
       id="about"
-      className="bg-gray-900 text-white rounded-lg shadow-xl p-8 mb-10 transform transition-all duration-500 hover:scale-102 hover:shadow-2xl"
+      className="bg-gray-900 text-white rounded-lg shadow-xl md:p-8 p-2 mb-5 transform transition-all duration-500 hover:scale-102 hover:shadow-2xl"
     >
       <div className="max-w-screen-xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between gap-8">
           {/* Текстовая часть */}
           <div className="max-w-[680px] w-full mb-6 md:mb-0">
-            <TypingConsoleEffect text={textLines} speed={10} codeHeight={20} consoleTitle="Информация обо мне" />
+            <TypingConsoleEffect text={textLines} speed={10} consoleTitle="Информация обо мне" />
           </div>
 
           {/* Контактная информация */}

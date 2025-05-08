@@ -21,7 +21,7 @@ export function MyStack() {
   return (
     <section
       id="stack"
-      className="bg-gray-900 text-white rounded-lg shadow-xl p-8 mb-10 transform transition-all duration-500 hover:scale-102 hover:shadow-2xl"
+      className="bg-gray-900 text-white rounded-lg shadow-xl md:p-8 py-5 mb-10 transform transition-all duration-500 hover:scale-102 hover:shadow-2xl"
     >
       <div className="max-w-screen-xl mx-auto px-6">
         <h2 className="text-3xl font-semibold text-teal-400 mb-6">Мои навыки</h2>
