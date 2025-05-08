@@ -4,8 +4,8 @@ export function WorkExperience() {
       id="work"
       className="bg-gray-900 text-white rounded-lg shadow-xl md:p-8 py-5 mb-10 transform transition-all duration-500 hover:scale-102 hover:shadow-2xl"
     >
-      <div className="max-w-4xl mx-auto px-6">
-        <h2 className="text-4xl font-bold mb-8">Опыт работы</h2>
+      <div className=" mx-auto md:px-6 px-2">
+        <h2 className="text-3xl font-semibold text-teal-400 mb-6">Опыт работы</h2>
 
         <div className="space-y-6">
           <div className="p-6 bg-gray-800 rounded-lg shadow-xl transform transition-transform hover:scale-102 hover:shadow-2xl hover:bg-gray-700">

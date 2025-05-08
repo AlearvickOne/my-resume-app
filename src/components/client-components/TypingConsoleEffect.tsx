@@ -54,7 +54,8 @@ export function TypingConsoleEffect({ text, speed = 50, consoleTitle }: TypingCo
           <div className="w-3.5 h-3.5 bg-amber-300 rounded-full" />
           <div className="w-3.5 h-3.5 bg-green-400 rounded-full" />
         </div>
-        <p className="text-white text-sm">{consoleTitle}</p>
+
+        <p className="text-xl font-semibold text-teal-400">{consoleTitle}</p>
       </div>
       <div className="w-full p-4 text-green-400 flex">
         {/* Левый столбик — номера всех строк */}

@@ -51,7 +51,7 @@ export function AboutMe() {
 
           {/* Контактная информация */}
           <div className="p-6 bg-gray-800 rounded-lg shadow-lg w-full md:w-[350px] md:block flex flex-col items-center">
-            <h2 className="text-2xl font-semibold text-gray-100 mb-6">Мои контакты:</h2>
+            <h2 className="md:text-3xl text-2xl font-semibold text-teal-400 mb-6">Мои контакты:</h2>
             <ul className="space-y-4">
               <li>
                 <span className="font-medium text-gray-300">ФИО:</span> Савченко Александр Сергеевич

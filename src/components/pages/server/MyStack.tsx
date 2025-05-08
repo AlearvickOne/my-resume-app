@@ -23,7 +23,7 @@ export function MyStack() {
       id="stack"
       className="bg-gray-900 text-white rounded-lg shadow-xl md:p-8 py-5 mb-10 transform transition-all duration-500 hover:scale-102 hover:shadow-2xl"
     >
-      <div className="max-w-screen-xl mx-auto px-6">
+      <div className="max-w-screen-xl mx-auto md:px-6 px-2">
         <h2 className="text-3xl font-semibold text-teal-400 mb-6">Мои навыки</h2>
         <div className="overflow-x-auto">
           <table className="min-w-full table-auto border-collapse shadow-lg rounded-lg overflow-hidden bg-gray-800">
