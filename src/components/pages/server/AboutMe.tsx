@@ -59,7 +59,7 @@ export function AboutMe() {
               {links.map((l) => (
                 <li key={l.category}>
                   <span className="font-medium text-gray-300">{l.category}</span>{" "}
-                  <Link href={l.href} className="text-teal-400 hover:underline">
+                  <Link href={l.href} className="text-teal-400 hover:underline" target="_blank" rel="noopener noreferrer">
                     {l.title}
                   </Link>
                 </li>
