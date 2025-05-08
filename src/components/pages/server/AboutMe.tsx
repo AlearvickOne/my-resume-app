@@ -68,7 +68,7 @@ export function AboutMe() {
 
             <div className="mt-10">
               <a
-                href="/files/resume.pdf"
+                href="/files/Resume-Alexandr-Savchenko.pdf"
                 download="Resume-Alexandr-Savchenko.pdf"
                 className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-700 text-white font-semibold py-2 px-4 rounded-lg transition"
               >

@@ -59,7 +59,7 @@ export function TypingConsoleEffect({ text, speed = 50, consoleTitle }: TypingCo
       <div className="w-full p-4 text-green-400 flex">
         {/* Левый столбик — номера всех строк */}
         <div className="text-right text-gray-500 select-none pr-4">
-          {Array.from({ length: isMobile ? 40 : 20 }).map((_, idx) => (
+          {Array.from({ length: isMobile ? 45 : 20 }).map((_, idx) => (
             <div key={idx}>{idx + 1}</div>
           ))}
         </div>
