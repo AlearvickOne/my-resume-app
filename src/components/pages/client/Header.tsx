@@ -1,7 +1,7 @@
 "use client";
 
 import { useIsMobile } from "@/components/hooks";
-import { HeaderMobile } from "@/components/client-components/HeaderMobile";
+import { HeaderMobile } from "@/components/pages/client/HeaderMobile";
 
 export function Header() {
   const isMobile = useIsMobile();

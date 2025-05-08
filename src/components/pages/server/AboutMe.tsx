@@ -50,7 +50,7 @@ export function AboutMe() {
           </div>
 
           {/* Контактная информация */}
-          <div className="p-6 bg-gray-800 rounded-lg shadow-lg w-full md:w-[350px]">
+          <div className="p-6 bg-gray-800 rounded-lg shadow-lg w-full md:w-[350px] md:block flex flex-col items-center">
             <h2 className="text-2xl font-semibold text-gray-100 mb-6">Мои контакты:</h2>
             <ul className="space-y-4">
               <li>
@@ -65,6 +65,16 @@ export function AboutMe() {
                 </li>
               ))}
             </ul>
+
+            <div className="mt-10">
+              <a
+                href="/files/resume.pdf"
+                download="Resume-Alexandr-Savchenko.pdf"
+                className="inline-flex items-center gap-2 bg-teal-600 hover:bg-teal-700 text-white font-semibold py-2 px-4 rounded-lg transition"
+              >
+                Скачать резюме в pdf
+              </a>
+            </div>
           </div>
         </div>
       </div>

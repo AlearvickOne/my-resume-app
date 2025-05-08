@@ -1,5 +1,5 @@
-import { WorkExperience, AboutMe, MyStack } from "@/components/server-components";
-import { Header } from "@/components/client-components";
+import { WorkExperience, AboutMe, MyStack } from "@/components/pages/server";
+import { Header } from "@/components/pages/client";
 
 export default function Home() {
   const sections = [
