@@ -8,7 +8,7 @@ const myStackElements: IMyStackElements[] = [
   {
     id: 1,
     category: "Языки",
-    skill: "JavaScript (ES6+), TypeScript",
+    skill: "JavaScript (ES6+), TypeScript, SQL",
   },
   { id: 2, category: "Фреймворки", skill: "React, Next.js, Nest.js" },
   { id: 3, category: "Стилизация", skill: "CSS3, SASS/SCSS, Tailwind CSS" },
