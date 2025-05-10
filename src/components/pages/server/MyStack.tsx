@@ -14,7 +14,11 @@ const myStackElements: IMyStackElements[] = [
   { id: 3, category: "Стилизация", skill: "CSS3, SASS/SCSS, Tailwind CSS" },
   { id: 4, category: "Состояние", skill: "MobX, Redux Toolkit, Zustand" },
   { id: 5, category: "Инструменты", skill: "Git, Webpack, Vite, Docker, websocket" },
-  { id: 6, category: "Библиотеки", skill: "AG-Grid, Chart.js, Storybook, Inversify, MUI, SheetJs, mv, react-quill, express-fileupload, socket.io" },
+  {
+    id: 6,
+    category: "Библиотеки",
+    skill: "AG-Grid, Chart.js, Storybook, Inversify, MUI, SheetJs, mv, react-quill, express-fileupload, socket.io, typeorm, .etc",
+  },
 ];
 
 export function MyStack() {
