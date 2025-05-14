@@ -2,22 +2,27 @@
 
 import { useIsMobile } from "@/components/hooks";
 import { HeaderMobile } from "@/components/pages/client/HeaderMobile";
+import { ID_ABOUT_ME, ID_MY_PROJECTS, ID_MY_STACK, ID_MY_WORK_EXP } from "@/components/pages/ids-pages";
 
 export function Header() {
   const isMobile = useIsMobile();
 
   const links = [
     {
-      link: "#about",
+      link: `#${ID_ABOUT_ME}`,
       text: "Обо мне",
     },
     {
-      link: "#stack",
+      link: `#${ID_MY_STACK}`,
       text: "Мои навыки",
     },
     {
-      link: "#work",
+      link: `#${ID_MY_WORK_EXP}`,
       text: "Опыт работы",
+    },
+    {
+      link: `#${ID_MY_PROJECTS}`,
+      text: "Мой проект",
     },
   ];
 

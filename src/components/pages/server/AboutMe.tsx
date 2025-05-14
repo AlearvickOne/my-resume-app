@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { TypingConsoleEffect } from "@/components/client-components";
+import { ID_ABOUT_ME } from "@/components/pages/ids-pages";
+import { SectionWrapper } from "@/components/wrappers";
 
 interface ILinks {
   category: string;
@@ -38,10 +40,7 @@ export function AboutMe() {
   ];
 
   return (
-    <section
-      id="about"
-      className="bg-gray-900 text-white rounded-lg shadow-xl md:p-8 p-2 mb-5 transform transition-all duration-500 hover:scale-102 hover:shadow-2xl"
-    >
+    <SectionWrapper idDOM={ID_ABOUT_ME}>
       <div className="max-w-screen-xl mx-auto">
         <div className="flex flex-col md:flex-row justify-between gap-8">
           {/* Текстовая часть */}
@@ -78,6 +77,6 @@ export function AboutMe() {
           </div>
         </div>
       </div>
-    </section>
+    </SectionWrapper>
   );
 }

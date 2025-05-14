@@ -1,4 +1,4 @@
-import { WorkExperience, AboutMe, MyStack } from "@/components/pages/server";
+import { WorkExperience, AboutMe, MyStack, MyProjects } from "@/components/pages/server";
 import { Header } from "@/components/pages/client";
 
 export default function Home() {
@@ -14,6 +14,10 @@ export default function Home() {
     {
       id: 3,
       section: <WorkExperience />,
+    },
+    {
+      id: 4,
+      section: <MyProjects />,
     },
   ];
 

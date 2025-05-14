@@ -1,9 +1,9 @@
+import { ID_MY_WORK_EXP } from "@/components/pages/ids-pages";
+import { SectionWrapper } from "@/components/wrappers";
+
 export function WorkExperience() {
   return (
-    <section
-      id="work"
-      className="bg-gray-900 text-white rounded-lg shadow-xl md:p-8 py-5 mb-10 transform transition-all duration-500 hover:scale-102 hover:shadow-2xl"
-    >
+    <SectionWrapper idDOM={ID_MY_WORK_EXP}>
       <div className=" mx-auto md:px-6 px-2">
         <h2 className="text-3xl font-semibold text-teal-400 mb-6">Опыт работы</h2>
 
@@ -43,6 +43,6 @@ export function WorkExperience() {
           </div>
         </div>
       </div>
-    </section>
+    </SectionWrapper>
   );
 }
